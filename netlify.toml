@@ -1,0 +1,17 @@
+[build]
+  base = "netlify/"
+  publish = "public/"
+  command = "node_modules/.bin/antora --pull --redirect-facility=netlify ../site.yml && touch ../public/_redirects && sed -i \"s;^/index.html ;/ ;\" ../public/_redirects"
+
+[build.environment]
+  NODE_VERSION = "8"
+  BUILD_ONLY = "true"
+  ANTORA_CACHE_DIR = "node_modules/.cache/antora"
+
+[context.deploy-preview]
+  command = "URL=$DEPLOY_PRIME_URL node_modules/.bin/antora --pull --redirect-facility=netlify ../site.yml && touch ../public/_redirects && sed -i \"s;^/index.html ;/ ;\" ../public/_redirects"
+
+[[headers]]
+  for = "/_/font/*"
+  [headers.values]
+    Cache-Control = "public,max-age=604800"
