@@ -1,20 +1,21 @@
-# runtime:
-#   cache_dir: ./.cache/antora
 site:
   title: Decidim Documentation
   url: https://docs.decidim.org
   start_page: en@template::introduction.adoc
 content:
   sources:
-  - url: https://github.com/decidim/docs-new-document-template.git
+  - url: &template https://github.com/decidim/docs-new-document-template.git
     branches: testing
     start_path: en
-  - url: https://github.com/decidim/docs-new-document-template.git
+  - url: *template
     branches: testing
     start_path: ca
-  - url: https://github.com/decidim/docs-new-document-template.git
+  - url: *template
     branches: testing
     start_path: es
+  - url: &authoring https://github.com/decidim/docs-authoring-guide.git
+    branches: master
+    start_path: en
 # asciidoc:
 #   attributes:
 #     idprefix: ''
