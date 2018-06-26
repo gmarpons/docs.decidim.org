@@ -1,16 +1,16 @@
 site:
   title: Decidim Documentation
   url: https://docs.decidim.org
-  start_page: en@template::introduction.adoc
+  start_page: en@features::general-description.adoc
 content:
   sources:
-  - url: &template https://github.com/decidim/docs-new-document-template.git
+  - url: &features https://github.com/decidim/docs-features.git
     branches: testing
     start_path: en
-  - url: *template
+  - url: *features
     branches: testing
     start_path: ca
-  - url: *template
+  - url: *features
     branches: testing
     start_path: es
   - url: &authoring https://github.com/decidim/docs-authoring-guide.git
