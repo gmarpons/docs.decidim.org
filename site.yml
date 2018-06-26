@@ -6,18 +6,19 @@ content:
   sources:
   - url: &features https://github.com/decidim/docs-features.git
     branches: new-template
-    start_path: en
+    start_path: es
   - url: *features
     branches: new-template
     start_path: ca
   - url: *features
     branches: new-template
-    start_path: es
+    start_path: en
   - url: &authoring https://github.com/decidim/docs-authoring-guide.git
     branches: master
     start_path: en
-# asciidoc:
-#   attributes:
+asciidoc:
+  attributes:
+      xrefstyle: short
 #     idprefix: ''
 #     idseparator: '-'
 #     linkattrs: ''
