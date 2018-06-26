@@ -1,2 +1,4 @@
+.cache/
 /public/
 /workspace/
+netlify/yarn.lock
