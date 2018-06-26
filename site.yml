@@ -5,13 +5,13 @@ site:
 content:
   sources:
   - url: &features https://github.com/decidim/docs-features.git
-    branches: testing
+    branches: new-template
     start_path: en
   - url: *features
-    branches: testing
+    branches: new-template
     start_path: ca
   - url: *features
-    branches: testing
+    branches: new-template
     start_path: es
   - url: &authoring https://github.com/decidim/docs-authoring-guide.git
     branches: master
