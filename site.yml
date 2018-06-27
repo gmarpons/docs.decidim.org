@@ -1,5 +1,5 @@
 site:
-  title: Decidim Documentation
+  title: Decidim Docs
   url: https://docs.decidim.org
   start_page: en@features::general-description.adoc
 content:
