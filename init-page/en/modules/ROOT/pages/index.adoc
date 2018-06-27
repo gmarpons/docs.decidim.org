@@ -1,0 +1,142 @@
+= Decidim's Document List
+:page-partial:
+
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+include::{partialsdir}/README.adoc[tag=metadata]
+
+// Start writing here
+
+++++
+<div class="container">
+  <div class="community">
+++++
+
+++++
+<div class="community__type">
+<div class="community__head">
+++++
+[discrete]
+=== Social Contract
+++++
+</div>
+++++
+Code for democratic guarantees and open collaboration.
+
+This is the social contract that all members of the Decidim project are committed to follow.
+++++
+</div>
+++++
+
+++++
+<div class="community__type">
+<div class="community__head">
+++++
+[discrete]
+=== Decidim's Whitepaper
+++++
+</div>
+++++
+++++
+</div>
+++++
+
+++++
+<div class="community__type">
+<div class="community__head">
+++++
+[discrete]
+=== xref:features:ROOT:general-description.adoc[Functions and Features]
+++++
+</div>
+++++
+Document that describes how Decidim works.
+
+Also contains a detailed feature description and the Roadmap for 2017/2018.
+++++
+</div>
+++++
+
+++++
+  </div>
+</div>
+++++
+
+++++
+<div class="container">
+  <div class="community">
+++++
+
+++++
+<div class="community__type">
+<div class="community__head">
+++++
+[discrete]
+=== Participant's Guide
+++++
+</div>
+++++
+* v0.12 "Ada Lovelace"
+++++
+</div>
+++++
+
+++++
+<div class="community__type">
+<div class="community__head">
+++++
+[discrete]
+=== Installation Manual
+++++
+</div>
+++++
+* v0.12 "Ada Lovelace"
+++++
+</div>
+++++
+
+++++
+<div class="community__type">
+<div class="community__head">
+++++
+[discrete]
+=== Administration Manual
+++++
+</div>
+++++
+* v0.12 "Ada Lovelace"
+* v0.10
+++++
+</div>
+++++
+
+++++
+  </div>
+</div>
+++++
+
+++++
+<div class="container">
+  <div class="community">
+++++
+
+++++
+<div class="community__type">
+<div class="community__head">
+++++
+[discrete]
+=== xref:docs-authoring:ROOT:overview.adoc[Documentation Authoring and Publishing Guide]
+++++
+</div>
+++++
+How to create, publish, maintain and contribute to Decidim documents.
+++++
+</div>
+++++
+
+++++
+  </div>
+</div>
+++++

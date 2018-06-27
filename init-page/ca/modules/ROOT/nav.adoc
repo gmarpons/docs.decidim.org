@@ -1,0 +1,6 @@
+// Add to the following lists cross references to all the pages you want to see
+// listed in the navigation menu for this document.
+* Segona secció
+** Subsecció A
+** Subsecció B
+* Tercera secció
