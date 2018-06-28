@@ -1,9 +1,12 @@
 site:
   title: Decidim Docs
   url: https://docs.decidim.org
-  start_page: en@features::general-description.adoc
+  start_page: en@init::index.adoc
 content:
   sources:
+  - url: &init https://github.com/decidim/docs.decidim.org.git
+    branches: master
+    start_path: init-page/en
   - url: &features https://github.com/decidim/docs-features.git
     branches: new-template
     start_path: es
