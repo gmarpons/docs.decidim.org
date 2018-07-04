@@ -4,9 +4,9 @@ site:
   start_page: en@init::index.adoc
 content:
   sources:
-  - url: &init https://github.com/decidim/docs.decidim.org.git
+  - url: &landing https://github.com/decidim/docs.decidim.org.git
     branches: master
-    start_path: init-page/en
+    start_path: landing-page/en
   - url: &features https://github.com/decidim/docs-features.git
     branches: master
     start_path: es
