@@ -8,13 +8,13 @@ content:
     branches: master
     start_path: init-page/en
   - url: &features https://github.com/decidim/docs-features.git
-    branches: new-template
+    branches: master
     start_path: es
   - url: *features
-    branches: new-template
+    branches: master
     start_path: ca
   - url: *features
-    branches: new-template
+    branches: master
     start_path: en
   - url: &authoring https://github.com/decidim/docs-authoring-guide.git
     branches: master
