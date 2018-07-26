@@ -19,6 +19,9 @@ content:
   - url: &authoring https://github.com/decidim/docs-authoring-guide.git
     branches: master
     start_path: en
+  - url: &config-tutorial https://github.com/decidim/docs-config-tutorial.git
+    branches: master
+    start_path: es
 asciidoc:
   attributes:
       xrefstyle: short
