@@ -22,6 +22,9 @@ content:
   - url: &config-tutorial https://github.com/decidim/docs-config-tutorial.git
     branches: master
     start_path: es
+  - url: &social-contract https://github.com/decidim/docs-social-contract.git
+    branches: master
+    start_path: en
 asciidoc:
   attributes:
       xrefstyle: short
