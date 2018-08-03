@@ -19,7 +19,7 @@ include::{partialsdir}/README.adoc[tag=metadata]
 <div class="community__head">
 ++++
 [discrete]
-=== Social Contract
+=== xref:social-contract:ROOT:social-contract.adoc[Decidim's Social Contract]
 ++++
 </div>
 ++++
