@@ -107,7 +107,7 @@ Also contains a detailed feature description and the Roadmap for 2017/2018.
 </div>
 ++++
 * v0.12 "Ada Lovelace"
-* v0.10
+* xref:en@admin-manual:ROOT:introduction.adoc[v0.10]
 ++++
 </div>
 ++++
