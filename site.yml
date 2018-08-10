@@ -9,13 +9,13 @@ content:
     start_path: landing-page/en
   - url: &features https://github.com/decidim/docs-features.git
     branches: master
-    start_path: es
-  - url: *features
-    branches: master
     start_path: ca
   - url: *features
     branches: master
     start_path: en
+  - url: *features
+    branches: master
+    start_path: es
   - url: &authoring https://github.com/decidim/docs-authoring-guide.git
     branches: master
     start_path: en
@@ -24,7 +24,13 @@ content:
     start_path: es
   - url: &social-contract https://github.com/decidim/docs-social-contract.git
     branches: master
+    start_path: ca
+  - url: *social-contract
+    branches: master
     start_path: en
+  - url: *social-contract
+    branches: master
+    start_path: es
 asciidoc:
   attributes:
       xrefstyle: short
