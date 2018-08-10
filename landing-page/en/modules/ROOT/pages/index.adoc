@@ -1,4 +1,4 @@
-= Decidim's Document List
+= Decidim Document List
 :page-partial:
 
 ifndef::env-site,env-github[]
