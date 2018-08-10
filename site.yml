@@ -31,6 +31,15 @@ content:
   - url: *social-contract
     branches: master
     start_path: es
+  - url: &admin-manual https://github.com/decidim/docs-admin-manual.git
+    branches: master
+    start_path: ca
+  - url: *admin-manual
+    branches: master
+    start_path: en
+  - url: *admin-manual
+    branches: master
+    start_path: es
 asciidoc:
   attributes:
       xrefstyle: short
