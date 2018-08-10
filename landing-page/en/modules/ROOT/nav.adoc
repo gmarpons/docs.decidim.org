@@ -1,9 +1,9 @@
 // Add to the following lists cross references to all the pages you want to see
 // listed in the navigation menu for this document.
 .What is Decidim
-* xref:social-contract:ROOT:social-contract.adoc[Decidim's Social Contract]
+* xref:en@social-contract:ROOT:social-contract.adoc[Decidim's Social Contract]
 * Whitepaper
-* xref:features:ROOT:general-description.adoc[Functions and Features]
+* xref:en@features:ROOT:general-description.adoc[Functions and Features]
 
 .Software Manuals
 * Participant's Guide
@@ -11,4 +11,4 @@
 * Administration
 
 .Useful Information
-* xref:docs-authoring:ROOT:overview.adoc[Documentation Authoring]
+* xref:en@docs-authoring:ROOT:overview.adoc[Documentation Authoring]

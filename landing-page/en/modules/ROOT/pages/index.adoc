@@ -19,7 +19,7 @@ include::{partialsdir}/README.adoc[tag=metadata]
 <div class="community__head">
 ++++
 [discrete]
-=== xref:social-contract:ROOT:social-contract.adoc[Decidim's Social Contract]
+=== xref:en@social-contract:ROOT:social-contract.adoc[Decidim's Social Contract]
 ++++
 </div>
 ++++
@@ -48,7 +48,7 @@ This is the social contract that all members of the Decidim project are committe
 <div class="community__head">
 ++++
 [discrete]
-=== xref:features:ROOT:general-description.adoc[Functions and Features]
+=== xref:en@features:ROOT:general-description.adoc[Functions and Features]
 ++++
 </div>
 ++++
@@ -127,7 +127,7 @@ Also contains a detailed feature description and the Roadmap for 2017/2018.
 <div class="community__head">
 ++++
 [discrete]
-=== xref:docs-authoring:ROOT:overview.adoc[Documentation Authoring and Publishing Guide]
+=== xref:en@docs-authoring:ROOT:overview.adoc[Documentation Authoring and Publishing Guide]
 ++++
 </div>
 ++++
