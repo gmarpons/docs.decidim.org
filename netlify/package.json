@@ -1,5 +1,5 @@
 {
-  "name": "el-docs-demo-site",
+  "name": "decidim-docs-site",
   "private": true,
   "devDependencies": {
     "@antora/cli": "1.0.1",
