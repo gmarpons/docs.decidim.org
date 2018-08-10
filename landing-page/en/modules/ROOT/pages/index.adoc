@@ -102,7 +102,7 @@ Also contains a detailed feature description and the Roadmap for 2017/2018.
 <div class="community__head">
 ++++
 [discrete]
-=== Administration Manual
+=== xref:en@admin-manual:ROOT:introduction.adoc[Administration Manual]
 ++++
 </div>
 ++++

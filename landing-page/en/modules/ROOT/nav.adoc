@@ -8,7 +8,7 @@
 .Software Manuals
 * Participant's Guide
 * Installation
-* Administration
+* xref:en@admin-manual:ROOT:introduction.adoc[Administration]
 
 .Useful Information
 * xref:en@docs-authoring:ROOT:overview.adoc[Documentation Authoring]
