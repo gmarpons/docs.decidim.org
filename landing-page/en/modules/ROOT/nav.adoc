@@ -1,7 +1,7 @@
 // Add to the following lists cross references to all the pages you want to see
 // listed in the navigation menu for this document.
 .What is Decidim
-* Social Contract
+* xref:social-contract:ROOT:social-contract.adoc[Decidim's Social Contract]
 * Whitepaper
 * xref:features:ROOT:general-description.adoc[Functions and Features]
 
