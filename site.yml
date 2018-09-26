@@ -1,3 +1,5 @@
+runtime:
+  cache_dir: ./.cache/antora
 site:
   title: Decidim Docs
   url: https://docs.decidim.org
@@ -52,5 +54,3 @@ ui:
   bundle:
     url: https://gitlab.com/gmarpons/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
-output:
-  dir: ./public

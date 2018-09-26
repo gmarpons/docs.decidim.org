@@ -1,5 +1,5 @@
 .cache/
-/public/
+/build/
 /workspace/
 netlify/yarn.lock
 /site-local.yml
