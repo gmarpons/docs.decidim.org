@@ -44,12 +44,9 @@ content:
     start_path: es
 asciidoc:
   attributes:
-      xrefstyle: short
-#     idprefix: ''
-#     idseparator: '-'
-#     linkattrs: ''
-#     toc: ~
-#     sectnums: ~
+    xrefstyle: short
+    idprefix: ''
+    idseparator: '-'
 ui:
   bundle:
     url: https://gitlab.com/gmarpons/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
