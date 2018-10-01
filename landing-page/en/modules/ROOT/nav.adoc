@@ -2,12 +2,9 @@
 // listed in the navigation menu for this document.
 .What is Decidim
 * xref:en@social-contract:ROOT:social-contract.adoc[Decidim's Social Contract]
-* Whitepaper
 * xref:en@features:ROOT:general-description.adoc[Functions and Features]
 
 .Software Manuals
-* Participant's Guide
-* Installation
 * xref:en@admin-manual:ROOT:introduction.adoc[Administration]
 * xref:en@developers-manual:ROOT:introduction.adoc[Developers]
 
