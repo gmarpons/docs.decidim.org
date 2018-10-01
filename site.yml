@@ -42,9 +42,6 @@ content:
   - url: *admin-manual
     branches: master
     start_path: es
-  - url: &developers-manual https://github.com/decidim/docs-developers-manual.git
-    branches: master
-    start_path: en
 asciidoc:
   attributes:
     xrefstyle: short
