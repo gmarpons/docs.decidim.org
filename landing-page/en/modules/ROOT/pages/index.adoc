@@ -19,6 +19,22 @@ include::{partialsdir}/README.adoc[tag=metadata]
 <div class="community__head">
 ++++
 [discrete]
+=== xref:en@features:ROOT:general-description.adoc[Functions and Features]
+++++
+</div>
+++++
+Document that describes how Decidim works.
+
+Also contains a detailed feature description and the Roadmap for 2017/2018.
+++++
+</div>
+++++
+
+++++
+<div class="community__type">
+<div class="community__head">
+++++
+[discrete]
 === xref:en@social-contract:ROOT:social-contract.adoc[Decidim's Social Contract]
 ++++
 </div>
@@ -35,13 +51,11 @@ This is the social contract that all members of the Decidim project are committe
 <div class="community__head">
 ++++
 [discrete]
-=== xref:en@features:ROOT:general-description.adoc[Functions and Features]
+=== xref:en@admin-manual:ROOT:introduction.adoc[Administration Manual]
 ++++
 </div>
 ++++
-Document that describes how Decidim works.
-
-Also contains a detailed feature description and the Roadmap for 2017/2018.
+* xref:en@admin-manual:ROOT:introduction.adoc[v0.10]
 ++++
 </div>
 ++++
@@ -67,31 +81,6 @@ Also contains a detailed feature description and the Roadmap for 2017/2018.
 How to develop and how it works Decidim at the technical level.
 ++++
 </div>
-++++
-
-++++
-<div class="community__type">
-<div class="community__head">
-++++
-[discrete]
-=== xref:en@admin-manual:ROOT:introduction.adoc[Administration Manual]
-++++
-</div>
-++++
-* v0.12 "Ada Lovelace"
-* xref:en@admin-manual:ROOT:introduction.adoc[v0.10]
-++++
-</div>
-++++
-
-++++
-</div>
-</div>
-++++
-
-++++
-<div class="container">
-<div class="community">
 ++++
 
 ++++
