@@ -11,7 +11,23 @@ include::{partialsdir}/README.adoc[tag=metadata]
 
 ++++
 <div class="container">
-  <div class="community">
+<div class="community">
+++++
+
+++++
+<div class="community__type">
+<div class="community__head">
+++++
+[discrete]
+=== xref:en@features:ROOT:general-description.adoc[Functions and Features]
+++++
+</div>
+++++
+Document that describes how Decidim works.
+
+Also contains a detailed feature description and the Roadmap for 2017/2018.
+++++
+</div>
 ++++
 
 ++++
@@ -35,91 +51,36 @@ This is the social contract that all members of the Decidim project are committe
 <div class="community__head">
 ++++
 [discrete]
-=== Decidim's Whitepaper
-++++
-</div>
-++++
-++++
-</div>
-++++
-
-++++
-<div class="community__type">
-<div class="community__head">
-++++
-[discrete]
-=== xref:en@features:ROOT:general-description.adoc[Functions and Features]
-++++
-</div>
-++++
-Document that describes how Decidim works.
-
-Also contains a detailed feature description and the Roadmap for 2017/2018.
-++++
-</div>
-++++
-
-++++
-  </div>
-</div>
-++++
-
-++++
-<div class="container">
-  <div class="community">
-++++
-
-++++
-<div class="community__type">
-<div class="community__head">
-++++
-[discrete]
-=== Participant's Guide
-++++
-</div>
-++++
-* v0.12 "Ada Lovelace"
-++++
-</div>
-++++
-
-++++
-<div class="community__type">
-<div class="community__head">
-++++
-[discrete]
-=== Installation Manual
-++++
-</div>
-++++
-* v0.12 "Ada Lovelace"
-++++
-</div>
-++++
-
-++++
-<div class="community__type">
-<div class="community__head">
-++++
-[discrete]
 === xref:en@admin-manual:ROOT:introduction.adoc[Administration Manual]
 ++++
 </div>
 ++++
-* v0.12 "Ada Lovelace"
 * xref:en@admin-manual:ROOT:introduction.adoc[v0.10]
 ++++
 </div>
 ++++
 
 ++++
-  </div>
+</div>
 </div>
 ++++
 
 ++++
 <div class="container">
-  <div class="community">
+<div class="community">
+++++
+++++
+<div class="community__type">
+<div class="community__head">
+++++
+[discrete]
+=== xref:en@developers-manual:ROOT:introduction.adoc[Developers Manual]
+++++
+</div>
+++++
+How to develop and how it works Decidim at the technical level.
+++++
+</div>
 ++++
 
 ++++
@@ -137,6 +98,6 @@ How to create, publish, maintain and contribute to Decidim documents.
 ++++
 
 ++++
-  </div>
+</div>
 </div>
 ++++
