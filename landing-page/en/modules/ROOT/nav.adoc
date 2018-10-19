@@ -6,9 +6,8 @@
 * xref:en@social-contract:ROOT:social-contract.adoc[Decidim's Social Contract]
 
 .Software Manuals
-* Participant's Guide
-* Installation
 * xref:en@admin-manual:ROOT:introduction.adoc[Administration]
+* xref:en@developers-manual:ROOT:introduction.adoc[Developers]
 
 .Useful Information
 * xref:en@docs-authoring:ROOT:overview.adoc[Documentation Authoring]
