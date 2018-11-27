@@ -1,10 +1,21 @@
-= Introducción
-:page-partial:
-
+= Docs Home
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
+:page-layout: landing
+:lang: es
 
-include::{partialsdir}/README.adoc[tag=metadata]
+Este es el sitio de documentación del proyecto https://decidim.org/{lang}[Decidim].
 
-// Start writing here
+
+== Proyecto y comunidad
+
+
+== Manuales del software
+
+
+== Publications
+
+=== Artículos científicos
+
+=== Artículos de divulgación, entrevistas y opinión

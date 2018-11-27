@@ -7,7 +7,7 @@ name: init
 # menus and navigation links. It's probably the same as README.adoc's
 # {doctitle} attribute.
 # Example: "My Awesome Document" (quotes not needed)
-title: Lista de documentos de Decidim
+title: Decidim Docs
 
 # MANDATORY. "en", "es" or "ca". If more than one revision of the document is
 # going to be shown, then append the revision as it appears in README.adoc's

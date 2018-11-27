@@ -8,7 +8,40 @@ content:
   sources:
   - url: &landing https://github.com/decidim/docs.decidim.org.git
     branches: master
+    start_path: landing-page/ca
+  - url: *landing
+    branches: master
     start_path: landing-page/en
+  - url: *landing
+    branches: master
+    start_path: landing-page/es
+  - url: &admin-manual https://github.com/decidim/docs-admin-manual.git
+    branches: master
+    start_path: ca
+  - url: *admin-manual
+    branches: master
+    start_path: en
+  - url: *admin-manual
+    branches: master
+    start_path: es
+  - url: &authoring https://github.com/decidim/docs-authoring-guide.git
+    branches: master
+    start_path: en
+  - url: &config-tutorial https://github.com/decidim/docs-config-tutorial.git
+    branches: master
+    start_path: es
+  - url: &deploy-and-admin https://github.com/decidim/docs-deploy-and-admin.git
+    branches: master
+    start_path: ca
+  - url: *deploy-and-admin
+    branches: master
+    start_path: en
+  - url: *deploy-and-admin
+    branches: master
+    start_path: es
+  - url: &developers https://github.com/decidim/docs-developers-manual.git
+    branches: master
+    start_path: en
   - url: &features https://github.com/decidim/docs-features.git
     branches: master
     start_path: ca
@@ -16,12 +49,6 @@ content:
     branches: master
     start_path: en
   - url: *features
-    branches: master
-    start_path: es
-  - url: &authoring https://github.com/decidim/docs-authoring-guide.git
-    branches: master
-    start_path: en
-  - url: &config-tutorial https://github.com/decidim/docs-config-tutorial.git
     branches: master
     start_path: es
   - url: &social-contract https://github.com/decidim/docs-social-contract.git
@@ -33,16 +60,7 @@ content:
   - url: *social-contract
     branches: master
     start_path: es
-  - url: &admin-manual https://github.com/decidim/docs-admin-manual.git
-    branches: master
-    start_path: ca
-  - url: *admin-manual
-    branches: master
-    start_path: en
-  - url: *admin-manual
-    branches: master
-    start_path: es
-  - url: &developers https://github.com/decidim/docs-developers-manual.git
+  - url: &whitepaper https://github.com/decidim/docs-whitepaper.git
     branches: master
     start_path: en
 asciidoc:

@@ -1,103 +1,75 @@
-= Decidim Document List
-:page-partial:
-
+= Docs Home
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
+:page-layout: landing
+:lang: en
 
-include::{partialsdir}/README.adoc[tag=metadata]
+// This is the documentation site for https://decidim.org/{lang}[Decidim].
+This is the documentation site for https://decidim.org[Decidim].
 
-// Start writing here
+All our documents are published under the Creative Commons By-SA and the GNU Free Documentation licenses.
+They are open to participation and can be forked.
+See how to contribute to our documentation in our xref:{lang}@docs-authoring:ROOT:overview.adoc[Documentation Authoring and Publishing Guide].
 
-++++
-<div class="container">
-<div class="community">
-++++
 
-++++
-<div class="community__type">
-<div class="community__head">
-++++
-[discrete]
-=== xref:en@features:ROOT:general-description.adoc[Functions and Features]
-++++
-</div>
-++++
-Document that describes how Decidim works.
+== Project and community
 
-Also contains a detailed feature description and the Roadmap for 2017/2018.
-++++
-</div>
-++++
-
-++++
-<div class="community__type">
-<div class="community__head">
-++++
-[discrete]
-=== xref:en@social-contract:ROOT:social-contract.adoc[Decidim's Social Contract]
-++++
-</div>
-++++
+* xref:{lang}@social-contract:ROOT:social-contract.adoc[Social Contract].
++
+--
 Code for democratic guarantees and open collaboration.
+// This is the social contract that all members of the Decidim project are committed to follow.
+--
 
-This is the social contract that all members of the Decidim project are committed to follow.
-++++
-</div>
-++++
+* xref:{lang}@features:ROOT:general-description.adoc[Functions and Features].
++
+--
+How Decidim works.
+Also contains a detailed feature description and the roadmap for 2017/2018.
+--
 
-++++
-<div class="community__type">
-<div class="community__head">
-++++
-[discrete]
-=== xref:en@admin-manual:ROOT:introduction.adoc[Administration Manual]
-++++
-</div>
-++++
-* xref:en@admin-manual:ROOT:introduction.adoc[v0.10]
-++++
-</div>
-++++
+* xref:{lang}@whitepaper:ROOT:decidim-a-brief-overview.adoc[Decidim: Political and Technopolitical Networks for Participatory Democracy].
++
+--
+Decidim's White paper.
+--
 
-++++
-</div>
-</div>
-++++
+// * xref:{lang}@docs-authoring:ROOT:overview.adoc[Documentation Authoring and Publishing Guide].
+// +
+// --
+// How to create, publish, maintain and contribute to Decidim documents.
+// --
 
-++++
-<div class="container">
-<div class="community">
-++++
-++++
-<div class="community__type">
-<div class="community__head">
-++++
-[discrete]
-=== xref:en@developers-manual:ROOT:introduction.adoc[Developers Manual]
-++++
-</div>
-++++
-How to develop and how it works Decidim at the technical level.
-++++
-</div>
-++++
 
-++++
-<div class="community__type">
-<div class="community__head">
-++++
-[discrete]
-=== xref:en@docs-authoring:ROOT:overview.adoc[Documentation Authoring and Publishing Guide]
-++++
-</div>
-++++
-How to create, publish, maintain and contribute to Decidim documents.
-++++
-</div>
-++++
+== Software manuals
 
-++++
-</div>
-</div>
-++++
+* xref:{lang}@deploy-and-admin:ROOT:get-decidim.adoc[Software deploy and administration].
++
+--
+Create and run an instance of Decidim for your city, organization or community.
+--
+
+* xref:{lang}@develop:ROOT:introduction.adoc[Developers' Manual].
++
+--
+A description of how Decidim works at the technical level and guidelines for developers.
+--
+
+
+== Publications
+
+=== Scientific papers
+
+* Aragón, P., Kaltenbrunner, A., Calleja-López, A., Pereira, A., Monterde, A., Barandiaran, X. E., & Gómez, V. (2017).
+  http://arxiv.org/abs/1707.06526[Deliberative Platform Design: The Case Study of the Online Discussions in Decidim Barcelona].
+  ArXiv:1707.06526.
+  Retrieved from http://arxiv.org/abs/1707.06526.
+
+
+=== Dissemination articles, interviews and opinion
+
+* Barandiaran, X. E., Monterde, A., & Pin, G. (2016).
+  http://programarilliure.xarxaip.cat/18.html[Decidim.barcelona: autonomia, participació i programari lliure].
+  In Xarxaip (Ed.), Programari lliure i de codi obert-Societat lliure i govern obert. (pp. 31–32).
+  Barcelona.
