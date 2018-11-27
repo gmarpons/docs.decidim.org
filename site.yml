@@ -39,7 +39,7 @@ content:
   - url: *deploy-and-admin
     branches: master
     start_path: es
-  - url: &developers https://github.com/decidim/docs-developers-manual.git
+  - url: &develop https://github.com/decidim/docs-developers-manual.git
     branches: master
     start_path: en
   - url: &features https://github.com/decidim/docs-features.git

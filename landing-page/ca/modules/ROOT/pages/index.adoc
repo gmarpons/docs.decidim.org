@@ -7,15 +7,67 @@ endif::[]
 
 Aquest és el lloc de documentació del projecte https://decidim.org/{lang}[Decidim].
 
+Tots els nostres documents es publiquen sota les llicències Creative Commons By-SA i GNU Free Documentation License.
+Els documents estan oberts a participació i es poden bifurcar (_fork_).
+Consulta com contribuir a la nostra documentació a la xref:en@docs-authoring:ROOT:overview.adoc[Guia per a l'elaboració i publicació de documentació (_en anglès_)].
+
 
 == Projecte i comunitat
 
+[.project-docs-list]
+--
+****
+xref:{lang}@social-contract:ROOT:social-contract.adoc[Contracte social]
+
+Codi de garanties democràtiques i per a la col·laboració oberta.
+// This is the social contract that all members of the Decidim project are committed to follow.
+****
+
+****
+xref:{lang}@features:ROOT:general-description.adoc[Funcionalitats i característiques]
+
+Com funciona Decidim, una descripció detallada de les funcionalitats i el full de ruta per a 2017/2018.
+****
+
+
+****
+xref:en@whitepaper:ROOT:decidim-a-brief-overview.adoc[Llibre blanc de Decidim (_en anglès_)]
+
+Decidim: Political and Technopolitical Networks for Participatory Democracy [_Work-in-progress_].
+****
+--
+
 
 == Manuals del programari
+
+[.software-docs-list]
+--
+****
+xref:{lang}@deploy-and-admin:ROOT:get-decidim.adoc[Guia d'implantació i administració]
+
+Crea i opera una instància de Decidim per a la teva ciutat, organització o comunitat.
+****
+
+****
+xref:en@develop:ROOT:introduction.adoc[Manual de desenvolupament (_en anglès_)]
+
+Una descripció de com funciona Decidim a nivell tècnic, i directrius per a desenvolupadores.
+****
+--
 
 
 == Publicacions
 
 === Articles científics
 
+* Aragón, P., Kaltenbrunner, A., Calleja-López, A., Pereira, A., Monterde, A., Barandiaran, X. E., & Gómez, V. (2017).
+  http://arxiv.org/abs/1707.06526[Deliberative Platform Design: The Case Study of the Online Discussions in Decidim Barcelona].
+  ArXiv:1707.06526.
+
+
 === Articles de divulgació, entrevistes i opinió
+
+* Barandiaran, X. E., Monterde, A., & Pin, G. (2016).
+  http://programarilliure.xarxaip.cat/18.html[Decidim.barcelona: autonomia, participació i programari lliure].
+  A Xarxaip (Ed.), Programari lliure i de codi obert-Societat lliure i govern obert. (pp. 31–32).
+  Barcelona.

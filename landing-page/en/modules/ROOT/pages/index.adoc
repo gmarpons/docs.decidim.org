@@ -15,45 +15,45 @@ See how to contribute to our documentation in our xref:{lang}@docs-authoring:ROO
 
 == Project and community
 
-* xref:{lang}@social-contract:ROOT:social-contract.adoc[Social Contract].
-+
+[.project-docs-list]
 --
+****
+xref:{lang}@social-contract:ROOT:social-contract.adoc[Social Contract]
+
 Code for democratic guarantees and open collaboration.
 // This is the social contract that all members of the Decidim project are committed to follow.
---
+****
 
-* xref:{lang}@features:ROOT:general-description.adoc[Functions and Features].
-+
---
-How Decidim works.
-Also contains a detailed feature description and the roadmap for 2017/2018.
---
+****
+xref:{lang}@features:ROOT:general-description.adoc[Functions and Features]
 
-* xref:{lang}@whitepaper:ROOT:decidim-a-brief-overview.adoc[Decidim: Political and Technopolitical Networks for Participatory Democracy].
-+
---
-Decidim's White paper.
---
+How Decidim works, a detailed feature description, and the roadmap for 2017/2018.
+****
 
-// * xref:{lang}@docs-authoring:ROOT:overview.adoc[Documentation Authoring and Publishing Guide].
-// +
-// --
-// How to create, publish, maintain and contribute to Decidim documents.
-// --
+
+****
+xref:{lang}@whitepaper:ROOT:decidim-a-brief-overview.adoc[Decidim's White Paper]
+
+Decidim: Political and Technopolitical Networks for Participatory Democracy [_Work-in-progress_].
+****
+--
 
 
 == Software manuals
 
-* xref:{lang}@deploy-and-admin:ROOT:get-decidim.adoc[Software deploy and administration].
-+
+[.software-docs-list]
 --
-Create and run an instance of Decidim for your city, organization or community.
---
+****
+xref:{lang}@deploy-and-admin:ROOT:get-decidim.adoc[Software deploy and administration]
 
-* xref:{lang}@develop:ROOT:introduction.adoc[Developers' Manual].
-+
---
+Create and run an instance of Decidim for your city, organization or community.
+****
+
+****
+xref:{lang}@develop:ROOT:introduction.adoc[Developers' Manual]
+
 A description of how Decidim works at the technical level and guidelines for developers.
+****
 --
 
 
@@ -64,7 +64,6 @@ A description of how Decidim works at the technical level and guidelines for dev
 * Aragón, P., Kaltenbrunner, A., Calleja-López, A., Pereira, A., Monterde, A., Barandiaran, X. E., & Gómez, V. (2017).
   http://arxiv.org/abs/1707.06526[Deliberative Platform Design: The Case Study of the Online Discussions in Decidim Barcelona].
   ArXiv:1707.06526.
-  Retrieved from http://arxiv.org/abs/1707.06526.
 
 
 === Dissemination articles, interviews and opinion

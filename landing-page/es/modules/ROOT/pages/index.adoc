@@ -7,15 +7,67 @@ endif::[]
 
 Este es el sitio de documentación del proyecto https://decidim.org/{lang}[Decidim].
 
+Todos nuestros documentos se publican bajo las licencias Creative Commons By-SA y GNU Free Documentation License.
+Los documentos están abiertos a participación i se pueden bifurcar (_fork_).
+Consulta como contribuir a nuestra documentación en la xref:en@docs-authoring:ROOT:overview.adoc[Guía para la elaboración y publicación de documentación (_en inglés_)].
+
 
 == Proyecto y comunidad
+
+[.project-docs-list]
+--
+****
+xref:{lang}@social-contract:ROOT:social-contract.adoc[Contrato social]
+
+Código de garantías democráticas y para la colaboración abierta.
+// This is the social contract that all members of the Decidim project are committed to follow.
+****
+
+****
+xref:{lang}@features:ROOT:general-description.adoc[Funcionalidades y características]
+
+Cómo funciona Decidim, una descripción detallada de sus funcionalidades y la hoja de ruta para 2017/2018.
+****
+
+
+****
+xref:en@whitepaper:ROOT:decidim-a-brief-overview.adoc[Libro blanco de Decidim (_en inglés_)]
+
+Decidim: Political and Technopolitical Networks for Participatory Democracy [_Work-in-progress_].
+****
+--
 
 
 == Manuales del software
 
+[.software-docs-list]
+--
+****
+xref:{lang}@deploy-and-admin:ROOT:get-decidim.adoc[Guía de implantación y administración]
 
-== Publications
+Crea y opera una instancia de Decidim para tu ciudad, organización o comunidad.
+****
+
+****
+xref:en@develop:ROOT:introduction.adoc[Manual de desarrollo (_en inglés_)]
+
+Una descripción de cómo funciona Decidim a nivel técnico, y directrices para desarrolladoras.
+****
+--
+
+
+== Publicaciones
 
 === Artículos científicos
 
+* Aragón, P., Kaltenbrunner, A., Calleja-López, A., Pereira, A., Monterde, A., Barandiaran, X. E., & Gómez, V. (2017).
+  http://arxiv.org/abs/1707.06526[Deliberative Platform Design: The Case Study of the Online Discussions in Decidim Barcelona].
+  ArXiv:1707.06526.
+
+
 === Artículos de divulgación, entrevistas y opinión
+
+* Barandiaran, X. E., Monterde, A., & Pin, G. (2016).
+  http://programarilliure.xarxaip.cat/18.html[Decidim.barcelona: autonomia, participació i programari lliure].
+  En Xarxaip (Ed.), Programari lliure i de codi obert-Societat lliure i govern obert. (pp. 31–32).
+  Barcelona.
