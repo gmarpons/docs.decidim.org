@@ -70,5 +70,5 @@ asciidoc:
     idseparator: '-'
 ui:
   bundle:
-    url: https://github.com/decidim/docs.decidim.org-ui/releases/download/latest/ui-bundle.zip
+    url: https://github.com/decidim/docs.decidim.org-ui/releases/download/v2/ui-bundle.zip
     snapshot: true
