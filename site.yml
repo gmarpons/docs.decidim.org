@@ -6,14 +6,14 @@ site:
   start_page: en@init::index.adoc
 content:
   sources:
-  - url: &landing https://github.com/decidim/docs.decidim.org.git
-    branches: master
+  - url: &landing .
+    branches: [HEAD]
     start_path: landing-page/ca
   - url: *landing
-    branches: master
+    branches: [HEAD]
     start_path: landing-page/en
   - url: *landing
-    branches: master
+    branches: [HEAD]
     start_path: landing-page/es
   - url: &admin-manual https://github.com/decidim/docs-admin-manual.git
     branches: master
