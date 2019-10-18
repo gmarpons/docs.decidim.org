@@ -1,0 +1,93 @@
+runtime:
+  cache_dir: ./.cache/antora
+content:
+  sources:
+  - branches:
+    - master
+    url: https://github.com/decidim/docs.decidim.org.git
+    start_path: landing-page/es
+  - branches:
+    - master
+    url: https://github.com/decidim/docs.decidim.org.git
+    start_path: landing-page/en
+  - branches:
+    - master
+    url: https://github.com/decidim/docs.decidim.org.git
+    start_path: landing-page/ca
+  - branches:
+    - master
+    url: https://github.com/decidim/docs-admin-manual.git
+    start_path: es
+  - branches:
+    - master
+    url: https://github.com/decidim/docs-admin-manual.git
+    start_path: en
+  - branches:
+    - master
+    url: https://github.com/decidim/docs-admin-manual.git
+    start_path: ca
+  - branches:
+    - master
+    url: https://github.com/decidim/docs-authoring-guide.git
+    start_path: en
+  - branches:
+    - master
+    url: https://github.com/decidim/docs-config-tutorial.git
+    start_path: es
+  - branches:
+    - master
+    url: https://github.com/decidim/docs-deploy-and-admin.git
+    start_path: es
+  - branches:
+    - master
+    url: https://github.com/decidim/docs-deploy-and-admin.git
+    start_path: en
+  - branches:
+    - master
+    url: https://github.com/decidim/docs-deploy-and-admin.git
+    start_path: ca
+  - branches:
+    - master
+    url: https://github.com/decidim/docs-developers-manual.git
+    start_path: en
+  - branches:
+    - master
+    url: https://github.com/decidim/docs-features.git
+    start_path: es
+  - branches:
+    - master
+    url: https://github.com/decidim/docs-features.git
+    start_path: en
+  - branches:
+    - master
+    url: https://github.com/decidim/docs-features.git
+    start_path: ca
+  - branches:
+    - master
+    url: https://github.com/decidim/docs-social-contract.git
+    start_path: es
+  - branches:
+    - master
+    url: https://github.com/decidim/docs-social-contract.git
+    start_path: en
+  - branches:
+    - master
+    url: https://github.com/decidim/docs-social-contract.git
+    start_path: ca
+  - branches:
+    - master
+    url: https://github.com/decidim/docs-whitepaper.git
+    start_path: en
+ui:
+  bundle:
+    snapshot: true
+    url: https://github.com/decidim/docs.decidim.org-ui/releases/download/v3/ui-bundle.zip
+site:
+  url: https://docs.decidim.org
+  start_page: en@init::index.adoc
+  title: Decidim Docs
+asciidoc:
+  attributes:
+    idseparator: ! '-'
+    xrefstyle: short
+    idprefix: ''
