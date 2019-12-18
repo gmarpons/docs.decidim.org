@@ -26,6 +26,7 @@ in  { site :
             { url : Text, snapshot : Optional Bool, start_path : Optional Text }
         , default_layout : Optional Text
         , output_dir : Optional Text
+        , supplemental_files : Optional Text
         }
     , output :
         Optional
